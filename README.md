@@ -16,20 +16,7 @@ These two values show whether a property is likely to be positive or negative ca
 ## Function summary
 def stress_tested_yield(
         price,
-        weekly_rent,
-        vacancy_weeks_base=2,
-        council_rates=2000,
-        insurance=1200,
-        strata=0,
-        other_costs=800,
-        lvr=0.8,
-        base_interest_rate=0.06,
-        rent_drop_stress=0.05,
-        vacancy_factor_stress=1.5,
-        rate_increase_stress=0.02,
-        mgmt_pct=0.07,
-        maint_pct=0.05
-    ):
+        weekly_rent):
 
 ## Inputs
 - Price of property
@@ -54,6 +41,9 @@ def stress_tested_yield(
 - Stress_Net_Annual_Rent: annual rent amount, net of expenses under stress scenario
 - Stress_Net_Yield: net rental yield under stress scenario
 
+<img width="994" height="165" alt="Screenshot 2025-11-21 at 9 13 43 PM" src="https://github.com/user-attachments/assets/ace04196-144d-4e49-840b-f139b53e376c" />
+
+
 # Assumptions
 - IO loan repayments
 
@@ -61,6 +51,8 @@ def stress_tested_yield(
 - Include additional parameters like property type, property configuration and suburb. Pull the other parameters (vacancy, management fee%, etc.) automatically by referencing other data sources that already have this information.
 - Include additional loan paramters like rate type (IO and P&I)..
 - Include tax benefits (e.g. expected tax return or tax bill)
+
+
 
 
 
