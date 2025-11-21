@@ -55,7 +55,7 @@ def stress_tested_yield(
 - Stress_Net_Yield: net rental yield under stress scenario
 
 # Assumptions
-- Assumes IO loan
+- IO loan repayments
 
 ## Potential imporvements to function
 - Include additional parameters like property type, property configuration and suburb. Pull the other parameters (vacancy, management fee%, etc.) automatically by referencing other data sources that already have this information.
